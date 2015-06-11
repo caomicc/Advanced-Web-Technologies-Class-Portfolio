@@ -1,0 +1,17 @@
+<?php $template->include_file('header.html'); ?>
+<div class="container">
+	<h1><?php echo $template->vars['file_location']; ?> <small style="font-variant: small-caps;"><a href="#" id="go-back">go back</a></small></h1>
+	<pre>
+		<?php echo $template->vars['php_source_code']; ?>
+	</pre>
+</div>
+
+<script type="text/javascript">
+<!--
+	$('#go-back').click(function() {
+		window.history.back();
+		return false;
+	});
+-->
+</script>
+<?php $template->include_file('footer.html'); ?>

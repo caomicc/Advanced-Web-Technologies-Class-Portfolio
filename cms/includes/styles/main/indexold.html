@@ -1,0 +1,23 @@
+<?php $template->include_file('header.html'); ?>
+
+<div class="container">
+	<div class="page-header">
+		<h1>Cameron Omiccioli</h1>
+		<p class="lead">Framingham State University - CSCI.373 - Advanced Web Technologies</p>
+	</div>
+
+	<h3>Completed Lab Assignments</h3>
+	<?php if (empty($template->vars['directory_ary'])): ?>
+		<p>No lab assignments have been completed.</p>
+	<?php else: ?>
+		<ul>
+		<?php for ($i = 0; $i < count($template->vars['directory_ary']); $i++): ?>
+			<li><a href="<?php echo LABS_DIRECTORY . '../../../../../' . $template->vars['directory_ary'][$i]; ?>"><?php echo $template->vars['directory_ary'][$i]; ?></a> - Source: <a href="../../../../../omiccioli/includes/styles/main/source.php?i=<?php echo LABS_DIRECTORY . '/' . $template->vars['directory_ary'][$i] . '/index.php'; ?>">View PHP</a></li>
+		<?php endfor; ?>
+		</ul>
+	<?php endif; ?>
+
+	<p>Check me out on <a href="http://www.facebook.com/nathan.dentzau">Facebook</a>, <a href="http://www.linkedin.com/pub/nathan-dentzau/7a/73b/49/">LinkedIn</a> or send me an <a href="mailto:ndentzau@student.framingham.edu">e-mail</a>.</p>
+</div>
+
+<?php $template->include_file('footer.html'); ?>

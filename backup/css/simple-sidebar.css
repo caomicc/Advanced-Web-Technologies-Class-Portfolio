@@ -1,0 +1,171 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+.container-fluid{
+	padding-top:0px;
+	}
+.list-group-item{
+	background:rgba(255,255,255,.4);
+	color:#999;
+	text-decoration:none;
+	padding:2px;
+	}
+.list-group{
+	margin:0 8px 0 6px;
+	}	
+body { 
+	font-family: 'Roboto', sans-serif;
+}
+.swurlyfont{
+	font-family: 'Pacifico', cursive;
+	}
+h1.swurlyfont{
+	font-size:48px;
+	}
+#infohead{
+	text-align:center;
+	vertical-align: middle;
+	margin: auto 0;
+	}
+.dropdown-menu {
+	background:rgba(255,255,255,.4);
+	color:#999;
+	margin-left:3px;
+	text-decoration:none;
+	}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 300px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+ 		background: -webkit-linear-gradient(135deg, #e6706f, #8a5b8d); /* For Safari 5.1 to 6.0 */
+ 		background: -o-linear-gradient(135deg, #e6706f, #8a5b8d); /* For Opera 11.1 to 12.0 */
+ 		background: -moz-linear-gradient(135deg, #e6706f, #8a5b8d); /* For Firefox 3.6 to 15 */
+ 		background: linear-gradient(135deg, #e6706f, #8a5b8d); /* Standard syntax */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 275px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 275px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+	text-decoration:bold;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #eee;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 36px;
+    line-height: 60px;
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+	text-indent: 0px;
+	}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #f8f8f8;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #eee;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #infohead{
+	text-align:left;
+	}
+	#wrapper {
+        padding-left: 280px;
+    }
+	.container-fluid{
+		padding-top:0px;
+	}
+	div.menu-div{
+		display:none;
+		}
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 275px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<?xml-stylesheet type="text/css" href="../../css/simple-sidebar.css" ?>
+<?xml-stylesheet type="text/css" href="../../css/bootstrap.min.css" ?>
+<data>
+	<student>
+		<name> 
+			<first>Walker</first>
+			<last>Setton</last>
+		</name>
+		<sex>Male</sex>
+		<ssn>888-99-0000</ssn>
+		<address>100 Boston Ave</address>
+		<dob>06-12-1993</dob>
+		<class>JR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Noelia</first>
+			<last>Grijalva</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>123-12-1234</ssn>
+		<address>66 Bay Blvd</address>
+		<dob>04-21-1993</dob>
+		<class>JR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Margene</first>
+			<last>Mcgranahan</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>321-32-3210</ssn>
+		<address>88 Beach Street</address>
+		<dob>01-10-1991</dob>
+		<class>SN</class>
+	</student>
+	<student>
+		<name> 
+			<first>Xochitl</first>
+			<last>Kalman</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>111-11-2222</ssn>
+		<address>4 Eastern Ave</address>
+		<dob>07-19-1993</dob>
+		<class>FR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Tonya</first>
+			<last>Fredrickson</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>222-22-3333</ssn>
+		<address>88 42nd Street</address>
+		<dob>08-14-1994</dob>
+		<class>SO</class>
+	</student>
+	<student>
+		<name> 
+			<first>Donte</first>
+			<last>Beckley</last>
+		</name>
+		<sex>Male</sex>
+		<ssn>555-55-6666</ssn>
+		<address>1 West Main Street</address>
+		<dob>08-11-1993</dob>
+		<class>JR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Caroll</first>
+			<last>Mcdill</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>666-66-6432</ssn>
+		<address>772 E Colorado Blvd</address>
+		<dob>11-30-1993</dob>
+		<class>JR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Ruthie</first>
+			<last>Reisner</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>776-33-1111</ssn>
+		<address>90 Fenway</address>
+		<dob>12-12-1992</dob>
+		<class>SN</class>
+	</student>
+	<student>
+		<name> 
+			<first>Nicolasa</first>
+			<last>Levario</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>654-76-4323</ssn>
+		<address>77 Ocean Ave</address>
+		<dob>08-08-1994</dob>
+		<class>FR</class>
+	</student>
+	<student>
+		<name> 
+			<first>Marguerita</first>
+			<last>Wilmot</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>087-32-7235</ssn>
+		<address>101 Park Drive</address>
+		<dob>05-22-1991</dob>
+		<class>SN</class>
+	</student>
+	<student>
+		<name> 
+			<first>Margarite</first>
+			<last>Hillwig</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>058-38-5792</ssn>
+		<address>44 Morrissey Blvd</address>
+		<dob>09-30-1991</dob>
+		<class>SN</class>
+	</student>
+	<student>
+		<name> 
+			<first>Karri</first>
+			<last>Zurcher</last>
+		</name>
+		<sex>Female</sex>
+		<ssn>854-39-3210</ssn>
+		<address>2 Freeport Street</address>
+		<dob>02-18-1994</dob>
+		<class>SO</class>
+	</student>
+</data>
